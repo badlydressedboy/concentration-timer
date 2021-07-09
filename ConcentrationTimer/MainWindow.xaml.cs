@@ -151,5 +151,19 @@ namespace ConcentrationTimer
                 TimerText.FontSize = 50;
             }
         }
+
+        private void Window_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            // take focus off textbox if it is there
+            ResetButton.Focus();
+        }
+
+        private void TaskText_PreviewKeyDown(object sender, KeyEventArgs e)
+        {
+            if(e.Key == Key.Enter)
+            {
+                ResetButton.Focus();
+            }
+        }
     }
 }
