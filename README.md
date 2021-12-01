@@ -1,4 +1,4 @@
-# concentration-timer
+# win-concentration-timer
  
 A windows app to help concentration by displaying a countdown timer and coloured flashes as the countdown gets closer to zero.
 
