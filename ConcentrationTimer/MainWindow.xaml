@@ -10,6 +10,7 @@
         Title="Concentration"
         ResizeMode="CanResizeWithGrip"
         WindowStyle="ToolWindow"
+        WindowStartupLocation="CenterScreen"
         Height="140" 
         Width="170"
         
